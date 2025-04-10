@@ -213,7 +213,7 @@ nav {
     font-size: 1.4rem;
     font-family: Raleway;
     font-weight: 600;
-    margin-top: 15px;
+    margin-top: 25px;
 }
 
 select {
@@ -226,6 +226,7 @@ select {
     color: #fff;
     font-weight: 550;
     padding: 5px 40px 5px 10px; /* padding extra à direita para a seta */
+    margin-top: 10px;
     appearance: none;
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -236,6 +237,64 @@ select option {
     font-family: Helvetica;
     color: #000;
     font-weight: 550;
+}
+
+input[type=number] {
+    width: 90%;
+    height: 50px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 7px;
+    font-family: Helvetica;
+    color: #fff;
+    font-weight: 550;
+    padding: 5px 40px 5px 10px;
+    margin-top: 15px ;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: textfield;
+    cursor: pointer;
+}
+
+/* Remove setas no Chrome, Safari, Edge, Opera */
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.exibirPts {
+    border: 2px solid #fff;
+    border-radius: 15px;
+    height: 450px;
+    width: 450px;
+    margin: 50px auto;
+}
+
+.containerButtons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 50px;
+}
+
+.buttonCalcular{
+    width: 500px;
+    height: 75px;
+    border-radius: 15px;
+    margin-top: 25px;
+    background-color: #6E079A;
+    color: #fff;
+    font-family: Raleway;
+    font-weight: 900;
+    font-size: 1.5rem;
+    border: 1px solid #fff;
+}
+
+.buttonCalcular:hover{
+    background-color: #58057C;
 }
 
 /* Responsividade */
