@@ -269,6 +269,17 @@ input[type=number]::-webkit-inner-spin-button {
     height: 450px;
     width: 450px;
     margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+.textPts {
+    font-family: Raleway;
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+    font-weight: 700;
 }
 
 .containerButtons{
@@ -296,6 +307,13 @@ input[type=number]::-webkit-inner-spin-button {
 .buttonCalcular:hover{
     background-color: #58057C;
 }
+
+.barra {
+    width: 60%;
+    transition: height 0.5s ease;
+    border-radius: 6px 6px 0 0;
+    border: 2px solid #fff;
+  }
 
 /* Responsividade */
 @media (max-width: 768px) {

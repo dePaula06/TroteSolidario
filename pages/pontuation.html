@@ -81,8 +81,8 @@
                         </p>
                         <input type="number" id="leite" name="leite" placeholder="litros de leite">
                         <div class="containerButtons">
-                            <button class="buttonCalcular">Calcular</button>
-                            <button class="buttonCalcular">Calcular nova equipe</button>
+                            <button class="buttonCalcular" onclick="calcular()">Calcular</button>
+                            <button class="buttonCalcular" onclick="reloading()">Calcular nova equipe</button>
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -111,8 +111,9 @@
                         </p>
                         <input type="number" id="caracterizacaoAnimacao" name="caracterizacaoAnimacao" placeholder="caracterizacao e animacao">
                         <div class="exibirPts">
-                           
-                        </div>
+                            <div id="soma" class="textPts"></div>
+                            <div class="barra" id="barraPontuacao"></div>
+                          </div>
                     </div>
                 </div>
             </form>
