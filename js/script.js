@@ -311,3 +311,184 @@ function calcular() {
 function reloading() {
     location.reload();
   }
+
+  //POO => Programação orientada a objeto
+
+  //Escolha da equipe e exibição de suas respectivas informações
+
+  class Equipe {
+    constructor(
+      nomeEquipe,
+      corEquipe,
+      posicao,
+      cursos,
+      entidadeEscolhida,
+      nomeMascote,
+      padrinho,
+      imgMascote, 
+      descricaoEntidade,
+      descricaoHomenageado,
+      imgHomenageado,
+      homenageado
+    ) {
+      this.nomeEquipe = nomeEquipe;
+      this.corEquipe = corEquipe;
+      this.posicao = posicao;
+      this.cursos = cursos;
+      this.entidadeEscolhida = entidadeEscolhida;
+      this.nomeMascote = nomeMascote;
+      this.padrinho = padrinho;
+      this.imgMascote = imgMascote;
+      this.descricaoEntidade = descricaoEntidade;
+      this.descricaoHomenageado = descricaoHomenageado;
+      this.imgHomenageado = imgHomenageado;
+      this.homenageado = homenageado
+    }
+  }
+
+  const equipes = {
+      Laranja : new Equipe(
+        "Laranja",
+        "#FF6F00",
+        "1º lugar",
+        "Matemática, Letras e Engenharia de software",
+        "Lar São Vicente de Paula",
+        "Lorax",
+        "Leticia Chaves, Priscila Pena e Carlos Lucas",
+        "../img/imgMascoteLaranja.png",
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+        "Gabriela Vergilio, triatleta amadora e educadora física, bicampeã brasileira e paulista na sua categoria, com participação em dois campeonatos mundiais.",
+        "../img/imgHomenageadoLaranja.png",
+        "Gabriela Vergilio"
+      ),
+      Preta : new Equipe(
+        "Preta",
+        "#000",
+        "5º lugar",
+        "Medicina e Enfermagem",
+        "Berçário Dona Nina",
+        "Edna",
+        "Daniel Martins, Márcia Urquiza e Márcia Giacomini",
+        "../img/imgMascotePreto.png",
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+        "Denilson Seixas, técnico de handebol e profissional atuante na formação de jovens atletas, além de já ter conduzido a tocha olímpica em Franca.",
+        "../img/imgHomenageadoPreto.png",
+        "Denilson Seixas"
+      ),
+      Roxa : new Equipe(
+        "Roxa",
+        "#6E079A",
+        "2º lugar",
+        "Comunic. Social - PP, Sistemas de Informação e Ciência da Computação",
+        "Associação Caminhar",
+        "Ravena",
+        "Nilton Pereira, Fábio Faria e Márcio Funes",
+        "../img/imgMascoteRoxo.png",
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+        "Manuela Cintra Archeti, atleta de beach tennis, com passagens pela Seleção Brasileira e títulos internacionais, como tricampeã Pan-Americana Sub-18.",
+        "../img/imgHomenageadoRoxo.png",
+        "Manuela Archeti"
+      ),
+      Verde : new Equipe(
+        "Verde",
+        "#3BC700",
+        "3º lugar",
+        "Engenharia de Produção, Engenharia Civil e Psicologia",
+        "Instituição espírita Nosso Lar",
+        "Mike Wazowski",
+        "João Vitor, Leandro Conterato e Sofia Graciolli",
+        "../img/imgMascoteVerde.png",
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+        "Estêvão Willian, jogador profissional do Palmeiras, convocado para a Seleção Brasileira e destaque no futebol nacional com recordes em desempenho aos 17 anos.",
+        "../img/imgHomenageadoVerde.webp",
+        "Estevão Willian"
+      ),
+      Vermelha : new Equipe(
+        "Vermelha",
+        "#D90026",
+        "4º lugar",
+        "Administração e Ciências Contábeis",
+        "Pestalozzi - Unidade II",
+        "Relâmpago McQuenn",
+        "Thalisa Gilberto, Mário Chagas e Cyro Durigan",
+        "../img/imgMascoteVermelho.png",
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+        "Diego Galante, atleta olímpico e instrutor de jiu-jitsu, hexacampeão brasileiro e bicampeão mundial.",
+        "../img/imgHomenageadoVermelho.png",
+        "Diego Galante"
+      )
+  }
+
+  //Função para mostrar a cor de acordo com a equipe
+  function mostrarEquipe(cor) {
+    const equipe = equipes[cor];
+  
+    const container = document.getElementById('info-equipe');
+    container.innerHTML = `
+      <div class="container">
+        <section>
+          <div class="row">
+            <div class="col-md-6 d-flex justify-content-center align-items-center">
+              <div class="containerImgMascote">
+                <img src="${equipe.imgMascote}" alt="Mascote da equipe" style="max-width: 80%; max-height: 80%; object-fit: contain" />
+              </div>
+            </div>
+            <div class="col-md-6" style="margin: auto">
+              <p class="titleEquipe" style="color: ${equipe.corEquipe}">
+                  Equipe ${equipe.nomeEquipe}
+              </p>
+              <p class="atributosEquipe">
+                <strong>Posição:</strong> ${equipe.posicao}
+              </p>
+              <p class="atributosEquipe">
+                <strong>Cursos:</strong> ${equipe.cursos}
+              </p>
+              <p class="atributosEquipe">
+                <strong>Entidade escolhida:</strong> ${equipe.entidadeEscolhida}
+              </p>
+              <p class="atributosEquipe">
+                <strong>Homenageado escolhido:</strong> ${equipe.homenageado}
+              </p>
+              <p class="atributosEquipe">
+                <strong>Nome do mascote:</strong> ${equipe.nomeMascote}
+              </p>
+              <p class="atributosEquipe">
+                <strong>Padrinhos:</strong> ${equipe.padrinho}
+              </p>
+            </div>
+          </div>
+            <div class="container">
+              <section style="margin-top: 50px; margin-left: 100px">
+                <div>
+                  <p style="font-size: 1.5rem; font-weight: 900; font-family: Raleway">
+                    ${equipe.entidadeEscolhida}
+                  </p>
+                  <p style="width: 70%; text-align: justify">
+                    ${equipe.descricaoEntidade}
+                  </p>
+                </div>
+          </section>
+            </div>
+            <div class="container">
+              <div class="row" style="margin-top: 50px; margin-left: 100px">
+                <div class="col-md-6 d-flex align-items-center">
+                  <section>
+                    <p style="font-size: 1.5rem; font-weight: 900; font-family: Raleway">
+                      ${equipe.homenageado}
+                    </p>
+                    <p style="width: 80%">
+                      ${equipe.descricaoHomenageado}
+                    </p>
+                  </section>
+                </div>
+                <div class="col-md-6 d-flex align-items-center" style="margin: auto">
+                  <div class="containerImgHomenageado">
+                    <img src="${equipe.imgHomenageado}" alt="Homenageado da Equipe" style="max-width: 90%; max-height: 90%; object-fit: contain" />
+                  </div>
+                </div>
+              </div>
+            </div>
+      </div>
+    `;
+  }
+  
