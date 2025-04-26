@@ -142,6 +142,7 @@ nav {
 
 .conhecerEquipes:hover{
     background-color: #58057C;
+    transform: scale(1.05);
 }
 
 .titleEtapasDaEtapa {

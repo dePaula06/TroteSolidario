@@ -352,11 +352,11 @@ function reloading() {
         "#FF6F00",
         "1º lugar",
         "Matemática, Letras e Engenharia de software",
-        "Lar São Vicente de Paula",
+        "Lar São Vicente de Paulo",
         "Lorax",
         "Leticia Chaves, Priscila Pena e Carlos Lucas",
         "../img/imgMascoteLaranja.png",
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+        "O Departamento de Promoção Vicentina, também conhecido como Lar São Vicente de Paulo, é uma Obra Unida à Sociedade de São Vicente de Paulo, e foi constituído em 02 de janeiro de 1982. É uma associação de direito privado, filantrópica, beneficente, sem fins econômicos, de assistência social, com natureza de Instituição de Longa Permanência para Idosos (ILPI), de duração por tempo indeterminado, com personalidade jurídica distinta de seus membros.",
         "Gabriela Vergilio, triatleta amadora e educadora física, bicampeã brasileira e paulista na sua categoria, com participação em dois campeonatos mundiais.",
         "../img/imgHomenageadoLaranja.png",
         "Gabriela Vergilio"
@@ -370,7 +370,7 @@ function reloading() {
         "Edna",
         "Daniel Martins, Márcia Urquiza e Márcia Giacomini",
         "../img/imgMascotePreto.png",
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+        "A fundação do berçário foi um sonho de Eulina da Silveira Borissi, conhecida como Dona Nina, que surgiu devido ao estado de miséria e a falta de condições de higiene para que gestações ocorressem de maneira saudável. A partir de então, se dedicou a mobilizar recursos e voluntários para auxiliá-la nessa empreitada. O Berçário Dona Nina é uma instituição não governamental, sem fins lucrativos, e depende de doações para que as atividades possam continuar em funcionamento.",
         "Denilson Seixas, técnico de handebol e profissional atuante na formação de jovens atletas, além de já ter conduzido a tocha olímpica em Franca.",
         "../img/imgHomenageadoPreto.png",
         "Denilson Seixas"
@@ -384,7 +384,7 @@ function reloading() {
         "Ravena",
         "Nilton Pereira, Fábio Faria e Márcio Funes",
         "../img/imgMascoteRoxo.png",
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+        "A CAMINHAR – Associação das Famílias, Pessoas e Portadores de Paralisia Cerebral de Franca é uma Organização da Sociedade Civil, que foi constituída em 07/04/1997, ou seja, há 28 anos, na cidade de Franca, por profissionais, famílias e pessoas com deficiência que buscavam um atendimento especializado para as deficiências múltiplas ocasionadas pela paralisia cerebral. Formou-se a Associação com a colaboração voluntária de várias pessoas e o trabalho iniciou com bastantes dificuldades.",
         "Manuela Cintra Archeti, atleta de beach tennis, com passagens pela Seleção Brasileira e títulos internacionais, como tricampeã Pan-Americana Sub-18.",
         "../img/imgHomenageadoRoxo.png",
         "Manuela Archeti"
@@ -398,7 +398,7 @@ function reloading() {
         "Mike Wazowski",
         "João Vitor, Leandro Conterato e Sofia Graciolli",
         "../img/imgMascoteVerde.png",
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+        "Atualmente a Instituição Espírita Nosso Lar atende 55 (cinquenta e cinco) idosos, do sexo feminino, com idade igual ou superior a sessenta anos, do município de Franca, em situação de vulnerabilidade social. Assim, o atual “Lar Dona Leonor” vem atendendo nos moldes da caridade cristã e de acordo com as normas políticas e legislativas voltadas ao bem estar do idoso.",
         "Estêvão Willian, jogador profissional do Palmeiras, convocado para a Seleção Brasileira e destaque no futebol nacional com recordes em desempenho aos 17 anos.",
         "../img/imgHomenageadoVerde.webp",
         "Estevão Willian"
@@ -412,7 +412,7 @@ function reloading() {
         "Relâmpago McQuenn",
         "Thalisa Gilberto, Mário Chagas e Cyro Durigan",
         "../img/imgMascoteVermelho.png",
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+        "A Escola Pestalozzi Unidade II, é mantida pela Fundação Educandário Pestalozzi, entidade jurídica de direito privado e finalidades filantrópicas. Executora dos projetos sociais idealizados pela Fundação, desenvolve desde 1983 o Projeto Lar-Escola, que atende a crianças de 4 a 10 anos, em período integral, através da concessão de Bolsas Escolares e desenvolvimento de ações educativas complementares no período contrário ao escolar, além de oferecer alimentação, material didático e pedagógico e uniformes escolares. Todo este atendimento é prestado de forma totalmente gratuito às crianças de baixa renda ou em situações de vulnerabilidades sociais.",
         "Diego Galante, atleta olímpico e instrutor de jiu-jitsu, hexacampeão brasileiro e bicampeão mundial.",
         "../img/imgHomenageadoVermelho.jpeg",
         "Diego Galante"
